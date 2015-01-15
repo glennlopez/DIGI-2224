@@ -1,8 +1,5 @@
 # Folders
 db/
-incremental_db/
-bin-release/
-output_files/
 
 # Files
 *.qpf
