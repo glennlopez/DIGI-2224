@@ -1,0 +1,275 @@
+Fitter report for half_add
+Thu Jan 15 13:26:20 2015
+Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Fitter Summary
+  3. Fitter Settings
+  4. Pin-Out File
+  5. Fitter Resource Usage Summary
+  6. Input Pins
+  7. Output Pins
+  8. All Package Pins
+  9. Output Pin Default Load For Reported TCO
+ 10. Fitter Resource Utilization by Entity
+ 11. Non-Global High Fan-Out Signals
+ 12. Other Routing Usage Summary
+ 13. LAB Macrocells
+ 14. Logic Cell Interconnection
+ 15. Fitter Device Options
+ 16. Fitter Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------+
+; Fitter Summary                                                              ;
++---------------------------+-------------------------------------------------+
+; Fitter Status             ; Successful - Thu Jan 15 13:26:20 2015           ;
+; Quartus II 32-bit Version ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name             ; half_add                                        ;
+; Top-level Entity Name     ; half_add                                        ;
+; Family                    ; MAX3000A                                        ;
+; Device                    ; EPM3032ATC44-10                                 ;
+; Timing Models             ; Final                                           ;
+; Total macrocells          ; 2 / 32 ( 6 % )                                  ;
+; Total pins                ; 8 / 34 ( 24 % )                                 ;
++---------------------------+-------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------+
+; Fitter Settings                                                                                              ;
++----------------------------------------------------------------------------+-----------------+---------------+
+; Option                                                                     ; Setting         ; Default Value ;
++----------------------------------------------------------------------------+-----------------+---------------+
+; Device                                                                     ; EPM3032ATC44-10 ;               ;
+; Use smart compilation                                                      ; Off             ; Off           ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On              ; On            ;
+; Enable compact report table                                                ; Off             ; Off           ;
+; Optimize Multi-Corner Timing                                               ; Off             ; Off           ;
+; Optimize Timing for ECOs                                                   ; Off             ; Off           ;
+; Regenerate full fit report during ECO compiles                             ; Off             ; Off           ;
+; Optimize IOC Register Placement for Timing                                 ; Normal          ; Normal        ;
+; Fitter Initial Placement Seed                                              ; 1               ; 1             ;
+; Slow Slew Rate                                                             ; Off             ; Off           ;
+; Fitter Effort                                                              ; Auto Fit        ; Auto Fit      ;
+; Force Fitter to Avoid Periphery Placement Warnings                         ; Off             ; Off           ;
++----------------------------------------------------------------------------+-----------------+---------------+
+
+
++--------------+
+; Pin-Out File ;
++--------------+
+The pin-out file can be found in /Documents/Github Clones/DIGI-2224/Lab1/output_files/half_add.pin.
+
+
++------------------------------------------------+
+; Fitter Resource Usage Summary                  ;
++------------------------------+-----------------+
+; Resource                     ; Usage           ;
++------------------------------+-----------------+
+; Logic cells                  ; 2 / 32 ( 6 % )  ;
+; Registers                    ; 0 / 32 ( 0 % )  ;
+; Number of pterms used        ; 3               ;
+; I/O pins                     ; 8 / 34 ( 24 % ) ;
+;     -- Clock pins            ; 0 / 2 ( 0 % )   ;
+;     -- Dedicated input pins  ; 0 / 2 ( 0 % )   ;
+;                              ;                 ;
+; Global signals               ; 0               ;
+; Shareable expanders          ; 0 / 32 ( 0 % )  ;
+; Parallel expanders           ; 0 / 30 ( 0 % )  ;
+; Cells using turbo bit        ; 2 / 32 ( 6 % )  ;
+; Maximum fan-out              ; 2               ;
+; Highest non-global fan-out   ; 2               ;
+; Total fan-out                ; 6               ;
+; Average fan-out              ; 0.60            ;
++------------------------------+-----------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Input Pins                                                                                                                ;
++------+-------+----------+-----+-----------------------+--------------------+--------+--------------+----------------------+
+; Name ; Pin # ; I/O Bank ; LAB ; Combinational Fan-Out ; Registered Fan-Out ; Global ; I/O Standard ; Location assigned by ;
++------+-------+----------+-----+-----------------------+--------------------+--------+--------------+----------------------+
+; a    ; 25    ; --       ; 2   ; 2                     ; 0                  ; no     ; 3.3-V LVTTL  ; User                 ;
+; b    ; 27    ; --       ; 2   ; 2                     ; 0                  ; no     ; 3.3-V LVTTL  ; User                 ;
++------+-------+----------+-----+-----------------------+--------------------+--------+--------------+----------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Output Pins                                                                                                                                                                                   ;
++-----------+-------+----------+-----+-----------------+----------------+------------+---------------+--------------+----------------------+-------+----------------------+---------------------+
+; Name      ; Pin # ; I/O Bank ; LAB ; Output Register ; Slow Slew Rate ; Open Drain ; TRI Primitive ; I/O Standard ; Location assigned by ; Load  ; Output Enable Source ; Output Enable Group ;
++-----------+-------+----------+-----+-----------------+----------------+------------+---------------+--------------+----------------------+-------+----------------------+---------------------+
+; carry_out ; 43    ; --       ; 1   ; no              ; no             ; no         ; no            ; 3.3-V LVTTL  ; User                 ; 10 pF ; -                    ; -                   ;
+; sum       ; 44    ; --       ; 1   ; no              ; no             ; no         ; no            ; 3.3-V LVTTL  ; User                 ; 10 pF ; -                    ; -                   ;
++-----------+-------+----------+-----+-----------------+----------------+------------+---------------+--------------+----------------------+-------+----------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------+
+; All Package Pins                                                                                      ;
++----------+------------+----------+----------------+--------+--------------+---------+-----------------+
+; Location ; Pad Number ; I/O Bank ; Pin Name/Usage ; Dir.   ; I/O Standard ; Voltage ; User Assignment ;
++----------+------------+----------+----------------+--------+--------------+---------+-----------------+
+; 1        ; 6          ; --       ; TDI            ; input  ; 3.3-V LVTTL  ;         ; N               ;
+; 2        ; 7          ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 3        ; 8          ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 4        ; 9          ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 5        ; 10         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 6        ; 11         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 7        ; 12         ; --       ; TMS            ; input  ; 3.3-V LVTTL  ;         ; N               ;
+; 8        ; 13         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 9        ; 14         ; --       ; VCCIO          ; power  ;              ; 3.3V    ;                 ;
+; 10       ; 15         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 11       ; 16         ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 12       ; 17         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 13       ; 18         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 14       ; 19         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 15       ; 20         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 16       ; 21         ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 17       ; 22         ; --       ; VCCINT         ; power  ;              ; 3.3V    ;                 ;
+; 18       ; 23         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 19       ; 24         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 20       ; 25         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 21       ; 26         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 22       ; 27         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 23       ; 28         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 24       ; 29         ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 25       ; 30         ; --       ; a              ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 26       ; 31         ; --       ; TCK            ; input  ; 3.3-V LVTTL  ;         ; N               ;
+; 27       ; 32         ; --       ; b              ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 28       ; 33         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 29       ; 34         ; --       ; VCCIO          ; power  ;              ; 3.3V    ;                 ;
+; 30       ; 35         ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 31       ; 36         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 32       ; 37         ; --       ; TDO            ; output ; 3.3-V LVTTL  ;         ; N               ;
+; 33       ; 38         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 34       ; 39         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 35       ; 40         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 36       ; 41         ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 37       ; 42         ; --       ; GND+           ;        ;              ;         ;                 ;
+; 38       ; 43         ; --       ; GND+           ;        ;              ;         ;                 ;
+; 39       ; 0          ; --       ; GND+           ;        ;              ;         ;                 ;
+; 40       ; 1          ; --       ; GND+           ;        ;              ;         ;                 ;
+; 41       ; 2          ; --       ; VCCINT         ; power  ;              ; 3.3V    ;                 ;
+; 42       ; 3          ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 43       ; 4          ; --       ; carry_out      ; output ; 3.3-V LVTTL  ;         ; Y               ;
+; 44       ; 5          ; --       ; sum            ; output ; 3.3-V LVTTL  ;         ; Y               ;
++----------+------------+----------+----------------+--------+--------------+---------+-----------------+
+Note: Pin directions (input, output or bidir) are based on device operating in user mode.
+
+
++-----------------------------------------------+
+; Output Pin Default Load For Reported TCO      ;
++--------------+-------+------------------------+
+; I/O Standard ; Load  ; Termination Resistance ;
++--------------+-------+------------------------+
+; 3.3-V LVTTL  ; 10 pF ; Not Available          ;
+; 3.3-V LVCMOS ; 10 pF ; Not Available          ;
+; 3.3-V PCI    ; 10 pF ; 25 Ohm (Parallel)      ;
+; 2.5 V        ; 10 pF ; Not Available          ;
++--------------+-------+------------------------+
+Note: User assignments will override these defaults. The user specified values are listed in the Output Pins and Bidir Pins tables.
+
+
++-------------------------------------------------------------------------------------+
+; Fitter Resource Utilization by Entity                                               ;
++----------------------------+------------+------+---------------------+--------------+
+; Compilation Hierarchy Node ; Macrocells ; Pins ; Full Hierarchy Name ; Library Name ;
++----------------------------+------------+------+---------------------+--------------+
+; |half_add                  ; 2          ; 8    ; |half_add           ; work         ;
++----------------------------+------------+------+---------------------+--------------+
+
+
++---------------------------------+
+; Non-Global High Fan-Out Signals ;
++-------------+-------------------+
+; Name        ; Fan-Out           ;
++-------------+-------------------+
+; b           ; 2                 ;
+; a           ; 2                 ;
+; carry_out~2 ; 1                 ;
+; sum~1       ; 1                 ;
++-------------+-------------------+
+
+
++----------------------------------------------+
+; Other Routing Usage Summary                  ;
++-----------------------------+----------------+
+; Other Routing Resource Type ; Usage          ;
++-----------------------------+----------------+
+; Output enables              ; 0 / 6 ( 0 % )  ;
+; PIA buffers                 ; 2 / 72 ( 3 % ) ;
++-----------------------------+----------------+
+
+
++----------------------------------------------------------------------+
+; LAB Macrocells                                                       ;
++----------------------------------------+-----------------------------+
+; Number of Macrocells  (Average = 1.00) ; Number of LABs  (Total = 1) ;
++----------------------------------------+-----------------------------+
+; 0                                      ; 1                           ;
+; 1                                      ; 0                           ;
+; 2                                      ; 1                           ;
++----------------------------------------+-----------------------------+
+
+
++--------------------------------------+
+; Logic Cell Interconnection           ;
++-----+------------+-------+-----------+
+; LAB ; Logic Cell ; Input ; Output    ;
++-----+------------+-------+-----------+
+;  A  ; LC3        ; a, b  ; sum       ;
+;  A  ; LC2        ; a, b  ; carry_out ;
++-----+------------+-------+-----------+
+
+
++---------------------------------------------------------------+
+; Fitter Device Options                                         ;
++----------------------------------------------+----------------+
+; Option                                       ; Setting        ;
++----------------------------------------------+----------------+
+; Enable user-supplied start-up clock (CLKUSR) ; Off            ;
+; Enable device-wide reset (DEV_CLRn)          ; Off            ;
+; Enable device-wide output enable (DEV_OE)    ; Off            ;
+; Enable INIT_DONE output                      ; Off            ;
+; Configuration scheme                         ; Passive Serial ;
+; Security bit                                 ; Off            ;
+; Base pin-out file on sameframe device        ; Off            ;
++----------------------------------------------+----------------+
+
+
++-----------------+
+; Fitter Messages ;
++-----------------+
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (119006): Selected device EPM3032ATC44-10 for design "half_add"
+Info: Quartus II 32-bit Fitter was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 321 megabytes
+    Info: Processing ended: Thu Jan 15 13:26:20 2015
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:03
+
+
