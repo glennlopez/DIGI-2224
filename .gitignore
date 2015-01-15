@@ -1,5 +1,8 @@
 # Folders
 db/
+Lab1/simulation/
+Lab1/output_files/
+Lab1/incremental_db/
 
 # Files
 *.qpf
