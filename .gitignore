@@ -1,1 +1,11 @@
-z
+# Folders
+db/
+incremental_db/
+bin-release/
+output_files/
+
+# Files
+*.qpf
+*.qsf
+*.bak
+*.qws
