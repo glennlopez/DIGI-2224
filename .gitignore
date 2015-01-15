@@ -1,8 +1,8 @@
 # Folders
 db/
-Lab1/simulation/
-Lab1/output_files/
-Lab1/incremental_db/
+LAB_*/simulation/
+LAB_*/output_files/
+LAB_*/incremental_db/
 
 # Files
 *.qpf
