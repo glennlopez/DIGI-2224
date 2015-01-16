@@ -1,18 +1,15 @@
 <!-- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet -->
+
 DIGI-2224
----
-This is a version control repo for the DIGI-2224 course offered at Red River College.
-It is intended to documment my progress with VHDL programming. You may download, review, or comment
-on the code for referance. If you are looking for my own projects concerning VHDL, you can check out
-my <a href="https://github.com/glennlopez/AlteraMax.Playground">AlteraMax.Playground</a> sandbox.
+---------
 
-><b>Disclaimer:</b> Students - you should atleast try and attempt the labs first before
-resorting to the finished lab in this repo. The intent of this repo is to help you learn, not cheat.
-If you just change key_names and submit the files as your own without understanding
-how the code works, I can guarantee you will fail the final exam.
+This is a version control repo for the DIGI-2224 course offered at Red River College. It is intended to document my progress with VHDL programming. You may download, review, or comment on the code for reference. If you are looking for my own projects concerning VHDL, you can check out my <a href="https://github.com/glennlopez/AlteraMax.Playground">AlteraMax.Playground</a> sandbox.
 
-VHDL Suplimental Resources:
----
+> <b>Disclaimer:</b> Students - you should at least try and attempt the labs first before resorting to the finished lab in this repo. The intent of this repo is to help you learn, not cheat. If you just change key_names and submit the files as your own without understanding how the code works, I can guarantee you will fail the final exam.
+
+VHDL Supplemental Resources:
+----------------------------
+
 <ul>
 
 <li><a href="http://www.pyroelectro.com/edu/fpga/">Pyro's Intro to VHDL</a></li>
@@ -23,21 +20,13 @@ VHDL Suplimental Resources:
 
 ### Folder Structure
 
-| Folder Name        | Description           |
-| ------------- |:--------------------:|
-| ASSIGNMENTS     | assignments with answers |
-| LAB_x | completed lab |
-| DATASHEET | manuals and datasheets |
-
+| Folder Name | Description              |
+|-------------|:------------------------:|
+| ASSIGNMENTS | assignments with answers |
+| LAB_x       |      completed lab       |
+| DATASHEET   |  manuals and datasheets  |
 
 Videos of Lab Results:
----
-The videos below show what your code does.
-<ul>
-<li><a href="#">Lab 1</a></li>
-<li><a href="#">Lab 2</a></li>
-<li><a href="#">Lab 3</a></li>
-<li><a href="#">Lab 4</a></li>
-<li><a href="#">Lab 5</a></li>
-<li><a href="#">Lab 6</a></li>
-</ul>
+----------------------
+
+The videos below show what your code does.<ul><li><a href="#">Lab 1</a></li><li><a href="#">Lab 2</a></li><li><a href="#">Lab 3</a></li><li><a href="#">Lab 4</a></li><li><a href="#">Lab 5</a></li><li><a href="#">Lab 6</a></li></ul>
