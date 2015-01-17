@@ -1,6 +1,15 @@
--- ASSIGNMENT // VIEWED BEST IN SUBLIMETEXT OR ATOM TEXT EDITOR
 
+--   __   ___  ___  __  __  _  _  __  __  ___  _  _  ____
+--  (  ) / __)/ __)(  )/ _)( \( )(  \/  )(  _)( \( )(_  _)
+--  /__\ \__ \\__ \ )(( (/\ )  (  )    (  ) _) )  (   )(
+-- (_)(_)(___/(___/(__)\__/(_)\_)(_/\/\_)(___)(_)\_) (__)
+--
+-- •	Assigning values to individual elements of a BIT_VECTOR or STD_LOGIC_VECTOR.
+-- •	Write a selected signal assignment statement in VHDL using INTEGER types.
+-- •	Write VHDL statements that use signals to combine inputs or separate outputs.
+--                                                      ~ github.com/glennlopez
 
+-- QUESTIONS: 
 
 -- 1a)  Write a VHDL statement that defines an 8-bit input port, addr, with the most significant bit on the left. Assume port the is of type BIT_VECTOR. [2]
 entity question_1a is
