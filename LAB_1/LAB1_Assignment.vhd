@@ -9,7 +9,7 @@
 -- •	Write VHDL statements that use signals to combine inputs or separate outputs.
 --                                                      ~ github.com/glennlopez
 
--- QUESTIONS: 
+-- QUESTIONS:
 
 -- 1a)  Write a VHDL statement that defines an 8-bit input port, addr, with the most significant bit on the left. Assume port the is of type BIT_VECTOR. [2]
 entity question_1a is
@@ -52,7 +52,7 @@ end all_humans;
 
 
 --2b) Repeat Problem 2a for the case where the output is defined as: x : OUT BIT_VECTOR(0 to 5); and x is assigned by the statement x <= “100101”; [2]
-entity question_2a is -- ref: to page 247
+entity question_2a is -- ref: page 247
    port
       (
          x: OUT BIT_VECTOR (0 to 5)
@@ -68,3 +68,19 @@ begin -- //100101 (0 to n) | since n is on the right side, list will start with 
    x(1) <= '0';
    x(0) <= '1';
 end all_humans;
+
+
+
+-- 3) Write a VHDL file to encode the following truth table. Define the input, d, as an INTEGER and the output, y, as type BIT. [5]
+entity truth_table is -- ref: page 253 - 254
+   port
+      (
+         -- bit inputs (d) | integer
+         -- bit output (y) | bit
+      );
+end truth_table;
+
+architecture theWorld  of truth_table is
+begin
+
+end theWorld;
