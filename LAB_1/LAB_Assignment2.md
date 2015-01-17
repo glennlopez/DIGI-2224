@@ -10,7 +10,8 @@ entity question_1a is
 		);
 end question_1a;
 ```
-----
+> :bulb: **Tip:** When ever you want the most significant bit on the left, you simply put the number of vectors you want on the left |* ie: ('n' downto 0)*
+
 
 <b>1b)</b> Write a VHDL statement that defines an 8-bit input port, <b>addr</b>, with the <u>most significant bit on the right</u>. Assume port the is of type <b>BIT_VECTOR.</b> [2]
 ```vhdl
@@ -20,4 +21,3 @@ entity question_1b is
 		);
 end question_1b;
 ```
----
