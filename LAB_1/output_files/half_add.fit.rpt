@@ -1,5 +1,5 @@
 Fitter report for half_add
-Thu Jan 15 13:26:20 2015
+Sun Jan 18 20:28:57 2015
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -47,7 +47,7 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Fitter Summary                                                              ;
 +---------------------------+-------------------------------------------------+
-; Fitter Status             ; Successful - Thu Jan 15 13:26:20 2015           ;
+; Fitter Status             ; Successful - Sun Jan 18 20:28:57 2015           ;
 ; Quartus II 32-bit Version ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name             ; half_add                                        ;
 ; Top-level Entity Name     ; half_add                                        ;
@@ -82,7 +82,7 @@ applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in /Documents/Github Clones/DIGI-2224/Lab1/output_files/half_add.pin.
+The pin-out file can be found in Z:/Documents/Github Clones/DIGI-2224/LAB_1/output_files/half_add.pin.
 
 
 +------------------------------------------------+
@@ -267,9 +267,9 @@ Note: User assignments will override these defaults. The user specified values a
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (119006): Selected device EPM3032ATC44-10 for design "half_add"
 Info: Quartus II 32-bit Fitter was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 321 megabytes
-    Info: Processing ended: Thu Jan 15 13:26:20 2015
-    Info: Elapsed time: 00:00:05
+    Info: Peak virtual memory: 317 megabytes
+    Info: Processing ended: Sun Jan 18 20:28:57 2015
+    Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:03
 
 

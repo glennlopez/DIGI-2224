@@ -1,5 +1,5 @@
 Assembler report for half_add
-Thu Jan 15 13:26:24 2015
+Sun Jan 18 20:29:01 2015
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -10,7 +10,7 @@ Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: /Documents/Github Clones/DIGI-2224/Lab1/output_files/half_add.pof
+  5. Assembler Device Options: Z:/Documents/Github Clones/DIGI-2224/LAB_1/output_files/half_add.pof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Jan 15 13:26:24 2015 ;
+; Assembler Status      ; Successful - Sun Jan 18 20:29:01 2015 ;
 ; Revision Name         ; half_add                              ;
 ; Top-level Entity Name ; half_add                              ;
 ; Family                ; MAX3000A                              ;
@@ -74,24 +74,24 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+-------------------------------------------------------------------+
-; Assembler Generated Files                                         ;
-+-------------------------------------------------------------------+
-; File Name                                                         ;
-+-------------------------------------------------------------------+
-; /Documents/Github Clones/DIGI-2224/Lab1/output_files/half_add.pof ;
-+-------------------------------------------------------------------+
++----------------------------------------------------------------------+
+; Assembler Generated Files                                            ;
++----------------------------------------------------------------------+
+; File Name                                                            ;
++----------------------------------------------------------------------+
+; Z:/Documents/Github Clones/DIGI-2224/LAB_1/output_files/half_add.pof ;
++----------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------+
-; Assembler Device Options: /Documents/Github Clones/DIGI-2224/Lab1/output_files/half_add.pof ;
-+----------------+----------------------------------------------------------------------------+
-; Option         ; Setting                                                                    ;
-+----------------+----------------------------------------------------------------------------+
-; Device         ; EPM3032ATC44-10                                                            ;
-; JTAG usercode  ; 0x00000000                                                                 ;
-; Checksum       ; 0x000719AD                                                                 ;
-+----------------+----------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------+
+; Assembler Device Options: Z:/Documents/Github Clones/DIGI-2224/LAB_1/output_files/half_add.pof ;
++----------------+-------------------------------------------------------------------------------+
+; Option         ; Setting                                                                       ;
++----------------+-------------------------------------------------------------------------------+
+; Device         ; EPM3032ATC44-10                                                               ;
+; JTAG usercode  ; 0x00000000                                                                    ;
+; Checksum       ; 0x000719AD                                                                    ;
++----------------+-------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -100,12 +100,12 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Jan 15 13:26:22 2015
+    Info: Processing started: Sun Jan 18 20:28:58 2015
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off half_add -c half_add
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 32-bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 316 megabytes
-    Info: Processing ended: Thu Jan 15 13:26:25 2015
+    Info: Peak virtual memory: 312 megabytes
+    Info: Processing ended: Sun Jan 18 20:29:01 2015
     Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:02
 

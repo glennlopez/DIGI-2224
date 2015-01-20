@@ -10,8 +10,6 @@ entity question_1a is
 		);
 end question_1a;
 ```
->**Tip:** When you want the MSB on the left, put the 'n' on the left ('n' downto 0). Opposite is true if you want the MSB on the right.
-
 
 **b.** Write a VHDL statement that defines an 8-bit input port, <b>addr</b>, with the <u>most significant bit on the right</u>. Assume port the is of type <b>BIT_VECTOR.</b> [2]
 ```vhdl
@@ -21,6 +19,9 @@ entity question_1b is
 		);
 end question_1b;
 ```
+
+>**Tip:** When you want the MSB on the left, put the 'n' on the left ('n' downto 0). Opposite is true if you want the MSB on the right.
+
 
 Question 2
 ---------
@@ -34,7 +35,7 @@ entity question_2a is -- ref: to page 247
 end question_2a;
 
 architecture all_humans of question_2a is
-	begin -- //100101 (n downto 0) | since n is on the left side, list will start with left number
+	begin -- x <= “100101
 		x(5) <= '1';
 		x(4) <= '0';
 		x(3) <= '0';
@@ -43,4 +44,7 @@ architecture all_humans of question_2a is
 		x(0) <= '1';
 end all_humans;
 ```
->**Tip:** When you want the MSB on the left, put the 'n' on the left ('n' downto 0). Opposite is true if you want the MSB on the right.
+
+
+
+>**Tip:**  100101 (n downto 0) | since n is on the left side, list will start with left number
