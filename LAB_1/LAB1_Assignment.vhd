@@ -94,14 +94,45 @@ architecture tbl_logic of question_3 is
 begin
 	with d select
 		y <= 	'1' when 0, -- we omit putting quotes '0' since this is an intiger
-				'1' when 3,
+				'1' when 3, -- we would put dbl quotes if this was "0011"
 				'1' when 5,
 				'1' when 6,
 				'0' when others;
 end tbl_logic;
 
+
+
+
 -- 4) 4. A VHDL design has five input ports labeled enable (MSB), read, write, selector, and compare (LSB) and three outputs labeled address_latch (MSB), data_enable, and strobe (LSB).
 
 -- a. Write a VHDL statement that concatenates all input lines into a signal called control. The signal is written with the most significant bit on the left. [3] -- ref: page 255
 
-architecture
+architecture concatenation_logic of question_4a is 
+   -- First we define the bundle cable (the signal called control)
+   signal control: std_logic_vector(4 downto 0); -- here we define the signal called "control"
+begin
+   -- After we defined the bundle cable, we define the wires inside the bundle
+   control <= a_enable & a_read & a_write & a_selector a_compare;
+-- etc..
+
+
+
+-- b. Write a series of VHDL statements that separate a signal called status into the output ports listed above. The ports are written with the most significant bit on the left. [3]
+
+architecture concatenation_logic of question_4b is
+   -- define the output wire bundle
+   signal status: std_logic_vector(2 downto 0);
+begin
+   -- we skip bundling the output cables and
+      -- then we write the table for select statements
+      with control select
+         status <=   "000" when "00000"
+                     "001" when "00001"
+                     "010" when "00010"
+                     -- etc....
+                     "111" when others;
+   -- separate signal into individual ports
+   address_latch <= status(0);
+   data_enable <= status(1);
+   strobe <= status(2);
+end concatenation_logic;
