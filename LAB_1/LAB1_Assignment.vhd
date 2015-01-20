@@ -3,7 +3,6 @@
 --  (  ) / __)/ __)(  )/ _)( \( )(  \/  )(  _)( \( )(_  _)
 --  /__\ \__ \\__ \ )(( (/\ )  (  )    (  ) _) )  (   )(    Lab# 1
 -- (_)(_)(___/(___/(__)\__/(_)\_)(_/\/\_)(___)(_)\_) (__)
--- Best viewed in a text editor (sublime text or atom)
 --
 -- •	Assigning values to individual elements of a BIT_VECTOR or STD_LOGIC_VECTOR.
 -- •	Write a selected signal assignment statement in VHDL using INTEGER types.
