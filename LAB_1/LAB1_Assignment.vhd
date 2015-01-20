@@ -13,7 +13,7 @@
 -- QUESTIONS:
 
 -- 1a)  Write a VHDL statement that defines an 8-bit input port, addr, with the most significant bit on the left. Assume port the is of type BIT_VECTOR. [2]
-entity question_1a is
+entity quest_3 is
    port
    (
       addr: IN BIT_VECTOR (7 downto 0));
@@ -82,7 +82,9 @@ end all_humans;
 --    1        1        1        0
 
 library ieee;
-use ieee.std_logic_1164.all;
+use ieee.std_logic_1164.all; 
+   
+end loop;
 
 entity question_3 is
 	port(
@@ -111,7 +113,7 @@ architecture concatenation_logic of question_4a is
    -- First we define the bundle cable (the signal called control)
    signal control: std_logic_vector(4 downto 0); -- here we define the signal called "control"
 begin
-   -- After we defined the bundle cable, we define the wires inside the bundle
+   -- After we defined the bundle cable, we define the wires we want in the bundle
    control <= a_enable & a_read & a_write & a_selector a_compare;
 -- etc..
 
@@ -131,8 +133,45 @@ begin
                      "010" when "00010"
                      -- etc....
                      "111" when others;
+
    -- separate signal into individual ports
    address_latch <= status(0);
    data_enable <= status(1);
    strobe <= status(2);
 end concatenation_logic;
+
+
+-- 5. Write a VHDL file that uses a selected signal assignment statement to encode the following truth table. [6]
+
+library ieee;
+use ieee.std_logic_1164.all;
+   
+entity question_5 is 
+   port(
+      a,b,c: in std_logic;
+      x,y,z: out std_logic);
+end question_5;
+   
+architecture logic of question_5 is
+   -- declare signals
+   signal inputs: std_logic_vector (2 downto 0);
+   signal outputs: std_logic_vector (2 downto 0);
+begin
+   -- concatenate inputs
+   inputs <= a & b & c;
+   with inputs select
+               -- xyz        abc
+      outputs <=  "100" when "000",
+                  "011" when "001",
+                  "010" when "010",
+                  "101" when "011",
+                  "010" when "100",
+                  "101" when "101",
+                  "100" when "110",
+                  "010" when "111",
+                  "000" when others;
+   -- seperate outputs
+   x <= outputs (2);
+   y <= outputs (1);
+   z <= outputs (0);
+end logic;                  
