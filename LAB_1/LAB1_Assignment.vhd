@@ -82,8 +82,6 @@ end all_humans;
 
 library ieee;
 use ieee.std_logic_1164.all; 
-   
-end loop;
 
 entity question_3 is
 	port(
