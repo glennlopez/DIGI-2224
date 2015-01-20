@@ -94,7 +94,7 @@ begin
 	with d select
 		y <= 	'1' when 0, -- we omit putting quotes '0' since this is an intiger
 				'1' when 3, -- we would put dbl quotes if this was "0011"
-				'1' when 5,
+				'1' when 5, -- we use single quotes ie: '1' to indicate is only 1 bit
 				'1' when 6,
 				'0' when others;
 end tbl_logic;
