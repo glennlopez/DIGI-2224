@@ -17,7 +17,7 @@ entity quest_3 is
    port
    (
       addr: IN BIT_VECTOR (7 downto 0));
-end question_1a;
+end quest_3;
 
 
 
