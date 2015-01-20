@@ -3,7 +3,7 @@
 DIGI-2224
 ---------
 
-This is a version control repo for the <u>DIGI-2224 course offered at Red River College</u>. It is intended to document my progress with VHDL programming. You may download, review, or comment on the code for reference. Answers to assignments can be found in the <a href"https://github.com/glennlopez/DIGI-2224/wiki">Wiki</a> i've created.
+This is a version control repo for the <u>DIGI-2224 course offered at Red River College</u>. It is intended to document my progress with VHDL programming. You may download, review, or comment on the code for reference. **Answers/guide to assignments** can be found in the <a href"https://github.com/glennlopez/DIGI-2224/wiki">Wiki</a> i've created.
 
 If you are looking for my own projects concerning VHDL, you can check out my <a href="https://github.com/glennlopez/AlteraMax.Playground">AlteraMax.Playground</a> sandbox.
 
