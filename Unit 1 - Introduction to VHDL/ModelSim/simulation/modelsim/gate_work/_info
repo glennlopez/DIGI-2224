@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dZ:\Documents\Github Clones\DIGI-2224\Unit 1 - Introduction to VHDL\ModelSim\simulation\modelsim
+vtruth_table_1
+!i10b 1
+!s100 @ZB[>BL3E@`1<_8L<<LZd1
+I[PhmiTG;D:VOnDnc>Cbgn3
+VkJngi__GVMLEg=njlSJ<Z3
+Z1 dZ:\Documents\Github Clones\DIGI-2224\Unit 1 - Introduction to VHDL\ModelSim\simulation\modelsim
+w1421954077
+8truth_table_1.vo
+Ftruth_table_1.vo
+L0 31
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1421954171.726000
+!s107 truth_table_1.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|truth_table_1.vo|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+. -O0

@@ -1,0 +1,48 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do truth_table_1_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {Z:/Documents/Github Clones/DIGI-2224/Unit 1 - Introduction to VHDL/ModelSim/truth_table_1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity truth_table_1
+# -- Compiling architecture tt of truth_table_1
+# 
+vsim +altera -do truth_table_1_run_msim_rtl_vhdl.do -l msim_transcript -gui work.truth_table_1
+# vsim +altera -do truth_table_1_run_msim_rtl_vhdl.do -l msim_transcript -gui work.truth_table_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.truth_table_1(tt)
+# do truth_table_1_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {Z:/Documents/Github Clones/DIGI-2224/Unit 1 - Introduction to VHDL/ModelSim/truth_table_1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity truth_table_1
+# -- Compiling architecture tt of truth_table_1
+# 
+do {Z:/Documents/Github Clones/DIGI-2224/Unit 1 - Introduction to VHDL/ModelSim/simulation/modelsim/wave.do}
+# .main_pane.wave.interior.cs.body.pw.wf
+# 1
+wave modify -driver freeze -pattern counter -startvalue 0000 -endvalue 1111 -type Range -direction Up -period 100ns -step 1 -repeat forever -range 3 0 -starttime 0ns -endtime 1600ns Edit:/truth_table_1/d
+run -all
+wave editwrite -file {Z:/Documents/Github Clones/DIGI-2224/Unit 1 - Introduction to VHDL/ModelSim/simulation/modelsim/wave_finished.do}

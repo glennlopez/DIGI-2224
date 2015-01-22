@@ -1,0 +1,12 @@
+# Folders
+db/
+LAB_*/simulation/
+LAB_*/output_files/
+LAB_*/incremental_db/
+
+# Files
+*.qpf
+*.qsf
+*.bak
+*.qws
+*.vwf

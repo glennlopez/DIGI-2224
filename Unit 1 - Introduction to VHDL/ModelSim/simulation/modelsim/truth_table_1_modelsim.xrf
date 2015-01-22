@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, Z:/Documents/Github Clones/DIGI-2224/Unit 1 - Introduction to VHDL/ModelSim/truth_table_1.vhd
+source_file = 1, Z:/Documents/Github Clones/DIGI-2224/Unit 1 - Introduction to VHDL/ModelSim/Waveform.vwf
+source_file = 1, Z:/Documents/Github Clones/DIGI-2224/Unit 1 - Introduction to VHDL/ModelSim/db/truth_table_1.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = truth_table_1
+instance = comp, \d[2]~I , d[2], truth_table_1, 1
+instance = comp, \d[0]~I , d[0], truth_table_1, 1
+instance = comp, \d[3]~I , d[3], truth_table_1, 1
+instance = comp, \d[1]~I , d[1], truth_table_1, 1
+instance = comp, \Mux0~0 , Mux0~0, truth_table_1, 1
+instance = comp, \y~I , y, truth_table_1, 1

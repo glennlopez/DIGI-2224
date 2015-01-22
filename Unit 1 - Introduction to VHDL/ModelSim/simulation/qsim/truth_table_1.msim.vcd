@@ -1,0 +1,144 @@
+$comment
+	File created using the following command:
+		vcd file truth_table_1.msim.vcd -direction
+$end
+$date
+	Thu Jan 22 13:14:46 2015
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module truth_table_1_vlg_vec_tst $end
+$var reg 4 ! d [3:0] $end
+$var wire 1 " y $end
+$var wire 1 # sampler $end
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var tri1 1 ' devclrn $end
+$var tri1 1 ( devpor $end
+$var tri1 1 ) devoe $end
+$var wire 1 * Mux0~0_combout $end
+$var wire 1 + d~combout [3] $end
+$var wire 1 , d~combout [2] $end
+$var wire 1 - d~combout [1] $end
+$var wire 1 . d~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0"
+x#
+0$
+1%
+x&
+1'
+1(
+1)
+0*
+0.
+0-
+0,
+0+
+$end
+#62500
+b1 !
+1.
+0#
+#125000
+b11 !
+b10 !
+0.
+1-
+1#
+#187500
+b11 !
+1.
+0#
+1*
+1"
+#250000
+b111 !
+b101 !
+b100 !
+0.
+0-
+1,
+1#
+#312500
+b101 !
+1.
+0#
+0*
+0"
+#375000
+b111 !
+b110 !
+0.
+1-
+1#
+#437500
+b111 !
+1.
+0#
+#500000
+b1111 !
+b1011 !
+b1001 !
+b1000 !
+0.
+0-
+0,
+1+
+1#
+#562500
+b1001 !
+1.
+0#
+1*
+1"
+#625000
+b1011 !
+b1010 !
+0.
+1-
+1#
+0*
+0"
+#687500
+b1011 !
+1.
+0#
+#750000
+b1111 !
+b1101 !
+b1100 !
+0.
+0-
+1,
+1#
+#812500
+b1101 !
+1.
+0#
+1*
+1"
+#875000
+b1111 !
+b1110 !
+0.
+1-
+1#
+0*
+0"
+#937500
+b1111 !
+1.
+0#
+#1000000
