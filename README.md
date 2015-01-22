@@ -3,19 +3,11 @@
 DIGI-2224
 ---------
 
-This is a version control repo for the <u>DIGI-2224 course offered at Red River College</u>. It is intended to document my progress with VHDL programming. You may download, review, or comment on the code for reference. **Answers/guide to assignments** can be found in the <a href"https://github.com/glennlopez/DIGI-2224/wiki">Wiki</a> i've created.
+This is a version control repo for the <u>DIGI-2224 course offered at Red River College</u>. It is intended to document my progress with VHDL programming. You may download, review, or comment on the code for reference. 
 
 If you are looking for my own projects concerning VHDL, you can check out my <a href="https://github.com/glennlopez/AlteraMax.Playground">AlteraMax.Playground</a> sandbox.
 
-> <b>Disclaimer:</b> Students - you should at least try and attempt the labs first before resorting to the finished lab in this repo. The intent of this repo is to help you learn, not cheat.
-
-### Folder Structure
-
-| Folder Name | Description              |
-|-------------|:------------------------:|
-| ASSIGNMENTS | assignments with answers |
-| LAB_x       |      completed labs       |
-| DATASHEET   |  manuals and datasheets  |
+> <b>Disclaimer:</b> Students - you should at least try and attempt the labs first before resorting to the finished lab in this repo. The intent of this repo is to help you learn, <u>not cheat</u>.
 
 VHDL Supplemental Resources:
 ----------------------------
@@ -25,8 +17,9 @@ VHDL Supplemental Resources:
 </ul>
 
 
-Recommended Downloads
+Recommended Downloads:
 ----------------------
-- Atom text editor [website]
-- Sublime Text 3 [website]
-- Quartus II [website]
+
+- **Atom** - text editor <a href="https://atom.io/">[website]</a>
+- **Sublime Text 3** - text editor <a href="http://www.sublimetext.com/3">[website]</a>
+- **Quartus II** - Alteras CPLD/FPGA IDE <a href="http://dl.altera.com/?edition=web">[website]</a>
