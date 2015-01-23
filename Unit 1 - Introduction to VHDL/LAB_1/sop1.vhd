@@ -3,9 +3,9 @@ use ieee.std_logic_1164.all;
 
 entity sop1 is
 	port(
-		d: in std_logic_vector(3 downto 0);
-		y: out std_logic
-	);
+			d: in std_logic_vector(3 downto 0);
+			y: out std_logic
+		);
 end sop1;
 
 architecture sum_of_product of sop1 is
