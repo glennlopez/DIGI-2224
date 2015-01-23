@@ -19,5 +19,3 @@ begin
 				'1' when "1101",
 				'0' when others;
 end sum_of_product;
-
---test pull
