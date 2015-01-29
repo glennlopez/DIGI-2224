@@ -11,7 +11,7 @@ entity decoder is
 end decoder;
 
 --architecture
-architecture a_3to8 of decoder is
+architecture logic_4to7 of decoder is
 	
 begin
 	with d select
@@ -33,4 +33,4 @@ begin
 			"0111000" when "1111",
 			"1111111" when others;
 
-end a_3to8;
+end logic_4to7;
