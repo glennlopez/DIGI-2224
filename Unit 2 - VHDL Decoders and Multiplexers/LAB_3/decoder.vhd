@@ -1,4 +1,5 @@
 -- set library
+library ieee;
 
 -- set entity as filename
 
