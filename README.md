@@ -23,3 +23,5 @@ Recommended Downloads:
 -	**Atom** - text editor <a href="https://atom.io/">[website]</a>
 -	**Sublime Text 3** - text editor <a href="http://www.sublimetext.com/3">[website]</a>
 -	**Quartus II** - Alteras CPLD/FPGA IDE <a href="http://dl.altera.com/?edition=web">[website]</a>
+
+<!-- http://open.spotify.com/user/glennlopez/playlist/2GJiaP1NeLik6GwyoawFFS -->
