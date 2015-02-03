@@ -17,7 +17,7 @@ architecture logic_4to8 of h7seg is
 begin
 	with d select
 	--     7 segment display is active low (0 = on)
-	-- 	 ABCDEFG			 8421
+	-- 	 ABCDEFG			 8421		OUTPUT
 	y <= 	"0000001" when "0000", -- 0
 			"1001111" when "0001", -- 1
 			"0010010" when "0010", -- 2
