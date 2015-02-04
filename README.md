@@ -7,8 +7,7 @@ This is a version control repo for the <u>DIGI-2224 course offered at Red River 
 
 If you are looking for my own projects concerning VHDL, you can check out my <a href="https://github.com/glennlopez/AlteraMax.Playground">AlteraMax.Playground</a> sandbox.
 
-> <b>Disclaimer:</b> Students - you should at least try and attempt the labs before resorting to the finished lab in this repo. The intent of this repo is to help give you a buffer for deadlines, not cheat. <u>Remember... cheating is 3rd degree murder in engineering.</u>
-
+> <b>Disclaimer:</b> Students - you should at least try and attempt the labs before resorting to the finished lab in this repo. The intent of this repo is to help give you a buffer for deadlines, not cheat.
 VHDL Supplemental Resources:
 ----------------------------
 

@@ -28,5 +28,3 @@ begin
 				"00000001" when "111", --7
 				"00000000" when others;
 end decoder;
-
-		
