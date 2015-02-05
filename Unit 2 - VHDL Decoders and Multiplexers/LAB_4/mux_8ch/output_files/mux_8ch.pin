@@ -73,16 +73,16 @@ VCCIO                        : 9         : power  :                   : 3.3V    
 RESERVED                     : 10        :        :                   :         :           :                
 GND                          : 11        : gnd    :                   :         :           :                
 RESERVED                     : 12        :        :                   :         :           :                
-d0                           : 13        : input  : 3.3-V LVTTL       :         :           : Y              
-d1                           : 14        : input  : 3.3-V LVTTL       :         :           : Y              
-d2                           : 15        : input  : 3.3-V LVTTL       :         :           : Y              
+d[0]                         : 13        : input  : 3.3-V LVTTL       :         :           : Y              
+d[1]                         : 14        : input  : 3.3-V LVTTL       :         :           : Y              
+d[2]                         : 15        : input  : 3.3-V LVTTL       :         :           : Y              
 GND                          : 16        : gnd    :                   :         :           :                
 VCCINT                       : 17        : power  :                   : 3.3V    :           :                
-d3                           : 18        : input  : 3.3-V LVTTL       :         :           : Y              
-d4                           : 19        : input  : 3.3-V LVTTL       :         :           : Y              
-d5                           : 20        : input  : 3.3-V LVTTL       :         :           : Y              
-d6                           : 21        : input  : 3.3-V LVTTL       :         :           : Y              
-d7                           : 22        : input  : 3.3-V LVTTL       :         :           : Y              
+d[3]                         : 18        : input  : 3.3-V LVTTL       :         :           : Y              
+d[4]                         : 19        : input  : 3.3-V LVTTL       :         :           : Y              
+d[5]                         : 20        : input  : 3.3-V LVTTL       :         :           : Y              
+d[6]                         : 21        : input  : 3.3-V LVTTL       :         :           : Y              
+d[7]                         : 22        : input  : 3.3-V LVTTL       :         :           : Y              
 s[2]                         : 23        : input  : 3.3-V LVTTL       :         :           : Y              
 GND                          : 24        : gnd    :                   :         :           :                
 s[1]                         : 25        : input  : 3.3-V LVTTL       :         :           : Y              
