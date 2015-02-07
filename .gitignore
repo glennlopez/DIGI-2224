@@ -1,8 +1,9 @@
 # Folders
 db/
-LAB_*/simulation/
-LAB_*/output_files/
-LAB_*/incremental_db/
+output_files/
+incremental_db/
+simulation/
+
 
 # Files
 *.qpf
@@ -10,3 +11,4 @@ LAB_*/incremental_db/
 *.bak
 *.qws
 *.vwf
+*.rpt

@@ -1,48 +1,138 @@
 # Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
-# do truth_table_1_run_msim_rtl_vhdl.do 
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
+# do truth_table_1_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
 # }
-# vlib rtl_work
-# vmap work rtl_work
+# vlib gate_work
+# vmap work gate_work
 # Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {Z:/Documents/Github Clones/DIGI-2224/Unit 1 - Introduction to VHDL/ModelSim/truth_table_1.vhd}
+# vcom -93 -work work {truth_table_1.vho}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
 # -- Compiling entity truth_table_1
-# -- Compiling architecture tt of truth_table_1
+# -- Compiling architecture structure of truth_table_1
 # 
-vsim +altera -do truth_table_1_run_msim_rtl_vhdl.do -l msim_transcript -gui work.truth_table_1
-# vsim +altera -do truth_table_1_run_msim_rtl_vhdl.do -l msim_transcript -gui work.truth_table_1 
+wave create -pattern none -portmode in -language vhdl -range 3 0 /truth_table_1/d
+# truth_table_1
+wave create -pattern none -portmode out -language vhdl /truth_table_1/y
+# truth_table_1
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {//vmware-host/Shared Folders/Documents/Github Clones/DIGI-2224/Unit 1 - Introduction to VHDL/ModelSim/simulation/modelsim/wave.do}
+wave editwrite -file {//vmware-host/Shared Folders/Documents/Github Clones/DIGI-2224/Unit 1 - Introduction to VHDL/ModelSim/simulation/modelsim/wave.do} -append
+vsim +altera -do truth_table_1_run_msim_gate_vhdl.do -l msim_transcript -gui work.truth_table_1
+# vsim +altera -do truth_table_1_run_msim_gate_vhdl.do -l msim_transcript -gui work.truth_table_1 
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading work.truth_table_1(tt)
-# do truth_table_1_run_msim_rtl_vhdl.do 
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.truth_table_1(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# do truth_table_1_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
 # }
-# vlib rtl_work
-# vmap work rtl_work
+# vlib gate_work
+# vmap work gate_work
 # Modifying modelsim.ini
 # 
-# vcom -93 -work work {Z:/Documents/Github Clones/DIGI-2224/Unit 1 - Introduction to VHDL/ModelSim/truth_table_1.vhd}
+# vcom -93 -work work {truth_table_1.vho}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
 # -- Compiling entity truth_table_1
-# -- Compiling architecture tt of truth_table_1
+# -- Compiling architecture structure of truth_table_1
 # 
-do {Z:/Documents/Github Clones/DIGI-2224/Unit 1 - Introduction to VHDL/ModelSim/simulation/modelsim/wave.do}
+do {//vmware-host/Shared Folders/Documents/Github Clones/DIGI-2224/Unit 1 - Introduction to VHDL/ModelSim/simulation/modelsim/wave.do}
 # .main_pane.wave.interior.cs.body.pw.wf
+# ** Error: /truth_table_1/d already exists in the wave, cannot add twice
+# Usage: wave create -pattern <clock|constant|random|repeater|counter|none> <args>
+# See Command Reference manual for pattern specific <args>
+# Executing ONERROR command at macro \\vmware-host\Shared Folders\Documents\Github Clones\DIGI-2224\Unit 1 - Introduction to VHDL\ModelSim\simulation\modelsim\wave.do line 25
+# ** Error: /truth_table_1/y already exists in the wave, cannot add twice
+# Usage: wave create -pattern <clock|constant|random|repeater|counter|none> <args>
+# See Command Reference manual for pattern specific <args>
+# Executing ONERROR command at macro \\vmware-host\Shared Folders\Documents\Github Clones\DIGI-2224\Unit 1 - Introduction to VHDL\ModelSim\simulation\modelsim\wave.do line 26
+# 1
+do {//vmware-host/Shared Folders/Documents/Github Clones/DIGI-2224/Unit 1 - Introduction to VHDL/ModelSim/simulation/modelsim/wave.do}
+# .main_pane.wave.interior.cs.body.pw.wf
+# ** Error: /truth_table_1/d already exists in the wave, cannot add twice
+# Usage: wave create -pattern <clock|constant|random|repeater|counter|none> <args>
+# See Command Reference manual for pattern specific <args>
+# Executing ONERROR command at macro \\vmware-host\Shared Folders\Documents\Github Clones\DIGI-2224\Unit 1 - Introduction to VHDL\ModelSim\simulation\modelsim\wave.do line 25
+# ** Error: /truth_table_1/y already exists in the wave, cannot add twice
+# Usage: wave create -pattern <clock|constant|random|repeater|counter|none> <args>
+# See Command Reference manual for pattern specific <args>
+# Executing ONERROR command at macro \\vmware-host\Shared Folders\Documents\Github Clones\DIGI-2224\Unit 1 - Introduction to VHDL\ModelSim\simulation\modelsim\wave.do line 26
 # 1
 wave modify -driver freeze -pattern counter -startvalue 0000 -endvalue 1111 -type Range -direction Up -period 100ns -step 1 -repeat forever -range 3 0 -starttime 0ns -endtime 1600ns Edit:/truth_table_1/d
+# truth_table_1
 run -all
-wave editwrite -file {Z:/Documents/Github Clones/DIGI-2224/Unit 1 - Introduction to VHDL/ModelSim/simulation/modelsim/wave_finished.do}
+# WARNING: No extended dataflow license exists
+run -all
+run -all
+run -all
+wave modify -driver freeze -pattern counter -startvalue 0000 -endvalue 1111 -type Range -direction Up -period 100ns -step 1 -repeat forever -range 3 0 -starttime 0ns -endtime 1600ns Edit:/truth_table_1/d
+# truth_table_1
+run -continue
+run -continue
+run -all
+run -all
+restart
+# Loading work.truth_table_1(structure)
+run -all
+quit -sim
+wave editwrite -file {//vmware-host/Shared Folders/Documents/Github Clones/DIGI-2224/Unit 1 - Introduction to VHDL/ModelSim/simulation/modelsim/wave.do}
+vsim work.truth_table_1
+# vsim work.truth_table_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.truth_table_1(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+vsim work.truth_table_1
+# vsim work.truth_table_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.truth_table_1(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)

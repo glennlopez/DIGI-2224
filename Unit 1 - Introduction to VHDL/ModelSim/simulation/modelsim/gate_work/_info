@@ -2,24 +2,47 @@ m255
 K3
 13
 cModel Technology
-Z0 dZ:\Documents\Github Clones\DIGI-2224\Unit 1 - Introduction to VHDL\ModelSim\simulation\modelsim
-vtruth_table_1
-!i10b 1
-!s100 @ZB[>BL3E@`1<_8L<<LZd1
-I[PhmiTG;D:VOnDnc>Cbgn3
-VkJngi__GVMLEg=njlSJ<Z3
-Z1 dZ:\Documents\Github Clones\DIGI-2224\Unit 1 - Introduction to VHDL\ModelSim\simulation\modelsim
-w1421954077
-8truth_table_1.vo
-Ftruth_table_1.vo
-L0 31
-OV;L;10.1d;51
-r1
-!s85 0
+Z0 d\\vmware-host\Shared Folders\Documents\Github Clones\DIGI-2224\Unit 1 - Introduction to VHDL\ModelSim\simulation\modelsim
+Etruth_table_1
+Z1 w1423270264
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx9 cycloneii 19 cycloneii_atom_pack 0 22 zUjlM<IUJVWSWg:L2<>ic3
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DPx9 cycloneii 20 cycloneii_components 0 22 h@gSJ;Al32oYg[7^PbnAR0
+Z8 d\\vmware-host\Shared Folders\Documents\Github Clones\DIGI-2224\Unit 1 - Introduction to VHDL\ModelSim\simulation\modelsim
+Z9 8truth_table_1.vho
+Z10 Ftruth_table_1.vho
+l0
+L34
+Vf^Y[VczRc5`V6LSIDFD]e2
+!s100 HJhf?1]c^CCXDdJ3ZTO9d2
+Z11 OV;C;10.1d;51
 31
-!s108 1421954171.726000
-!s107 truth_table_1.vo|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|truth_table_1.vo|
-!s101 -O0
-o-vlog01compat -work work -O0
-!s92 -vlog01compat -work work +incdir+. -O0
+!i10b 1
+Z12 !s108 1423272140.991000
+Z13 !s90 -reportprogress|300|-93|-work|work|truth_table_1.vho|
+Z14 !s107 truth_table_1.vho|
+Z15 o-93 -work work -O0
+Z16 tExplicit 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 13 truth_table_1 0 22 f^Y[VczRc5`V6LSIDFD]e2
+l64
+L49
+VZaKM7eCOG@9mjMokh8CLO1
+!s100 o0_H0PeYE1TJ@QXzfWhla0
+R11
+31
+!i10b 1
+R12
+R13
+R14
+R15
+R16

@@ -38,4 +38,4 @@ begin
 			---------------------------	end of 4 bit use
 			"1111111" when others;
 
-end logic_4to7;
+end logic_4to8;

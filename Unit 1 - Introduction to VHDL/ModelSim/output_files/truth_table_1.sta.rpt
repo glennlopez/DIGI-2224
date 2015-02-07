@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for truth_table_1
-Thu Jan 22 11:13:36 2015
+Fri Feb 06 18:45:52 2015
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -60,7 +60,7 @@ applicable agreement for further details.
 ; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition ;
 ; Revision Name      ; truth_table_1                                                     ;
 ; Device Family      ; Cyclone II                                                        ;
-; Device Name        ; EP2C35F672C6                                                      ;
+; Device Name        ; EP2C35F672C7                                                      ;
 ; Timing Models      ; Final                                                             ;
 ; Delay Model        ; Combined                                                          ;
 ; Rise/Fall Delays   ; Unavailable                                                       ;
@@ -109,28 +109,28 @@ No paths to report.
 No paths to report.
 
 
-+----------------------------------------------------------+
-; Propagation Delay                                        ;
-+------------+-------------+-------+-------+-------+-------+
-; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
-+------------+-------------+-------+-------+-------+-------+
-; d[0]       ; y           ; 5.406 ; 5.406 ; 5.406 ; 5.406 ;
-; d[1]       ; y           ; 5.133 ; 5.133 ; 5.133 ; 5.133 ;
-; d[2]       ; y           ; 9.454 ; 9.454 ; 9.454 ; 9.454 ;
-; d[3]       ; y           ; 9.280 ; 9.280 ; 9.280 ; 9.280 ;
-+------------+-------------+-------+-------+-------+-------+
++--------------------------------------------------------------+
+; Propagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; d[0]       ; y           ; 6.008  ; 6.008  ; 6.008  ; 6.008  ;
+; d[1]       ; y           ; 5.663  ; 5.663  ; 5.663  ; 5.663  ;
+; d[2]       ; y           ; 10.335 ; 10.335 ; 10.335 ; 10.335 ;
+; d[3]       ; y           ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
++------------+-------------+--------+--------+--------+--------+
 
 
-+----------------------------------------------------------+
-; Minimum Propagation Delay                                ;
-+------------+-------------+-------+-------+-------+-------+
-; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
-+------------+-------------+-------+-------+-------+-------+
-; d[0]       ; y           ; 5.406 ; 5.406 ; 5.406 ; 5.406 ;
-; d[1]       ; y           ; 5.133 ; 5.133 ; 5.133 ; 5.133 ;
-; d[2]       ; y           ; 9.454 ; 9.454 ; 9.454 ; 9.454 ;
-; d[3]       ; y           ; 9.280 ; 9.280 ; 9.280 ; 9.280 ;
-+------------+-------------+-------+-------+-------+-------+
++--------------------------------------------------------------+
+; Minimum Propagation Delay                                    ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; d[0]       ; y           ; 6.008  ; 6.008  ; 6.008  ; 6.008  ;
+; d[1]       ; y           ; 5.663  ; 5.663  ; 5.663  ; 5.663  ;
+; d[2]       ; y           ; 10.335 ; 10.335 ; 10.335 ; 10.335 ;
+; d[3]       ; y           ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
++------------+-------------+--------+--------+--------+--------+
 
 
 ----------------------------
@@ -197,16 +197,16 @@ No paths to report.
 +------------------+-------+------+----------+---------+---------------------+
 
 
-+----------------------------------------------------------+
-; Progagation Delay                                        ;
-+------------+-------------+-------+-------+-------+-------+
-; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
-+------------+-------------+-------+-------+-------+-------+
-; d[0]       ; y           ; 5.406 ; 5.406 ; 5.406 ; 5.406 ;
-; d[1]       ; y           ; 5.133 ; 5.133 ; 5.133 ; 5.133 ;
-; d[2]       ; y           ; 9.454 ; 9.454 ; 9.454 ; 9.454 ;
-; d[3]       ; y           ; 9.280 ; 9.280 ; 9.280 ; 9.280 ;
-+------------+-------------+-------+-------+-------+-------+
++--------------------------------------------------------------+
+; Progagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; d[0]       ; y           ; 6.008  ; 6.008  ; 6.008  ; 6.008  ;
+; d[1]       ; y           ; 5.663  ; 5.663  ; 5.663  ; 5.663  ;
+; d[2]       ; y           ; 10.335 ; 10.335 ; 10.335 ; 10.335 ;
+; d[3]       ; y           ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
++------------+-------------+--------+--------+--------+--------+
 
 
 +----------------------------------------------------------+
@@ -259,7 +259,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 32-bit TimeQuest Timing Analyzer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Jan 22 11:13:31 2015
+    Info: Processing started: Fri Feb 06 18:45:47 2015
 Info: Command: quartus_sta truth_table_1 -c truth_table_1
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -292,8 +292,8 @@ Info (332001): The selected device family is not supported by the report_metasta
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 32-bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 303 megabytes
-    Info: Processing ended: Thu Jan 22 11:13:36 2015
+    Info: Peak virtual memory: 304 megabytes
+    Info: Processing ended: Fri Feb 06 18:45:52 2015
     Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:05
 
