@@ -6,7 +6,7 @@ use ieee.std_logic_1164.all;
 entity h7seg is
 	port
 	(
-		y: out std_logic_vector(0 to 6);			-- ABCDEFG (G = MSB)
+		y: out std_logic_vector(6 downto 0);			-- ABCDEFG (G = MSB)
 		d: in std_logic_vector(3 downto 0)		-- 8421 (8 = MSB)
 	);
 end h7seg;
