@@ -23,7 +23,7 @@ end full_adder;
 --architecture
 architecture logic_add of full_adder is 
 begin
-	sum 		<= 	a xor b xor c_ in;
+	sum 		<= 	a xor b xor c_in;
 	c_out 	<= 	(a and b) or (a and c_in) or (b and c_in); 
 end logic_add;
 
