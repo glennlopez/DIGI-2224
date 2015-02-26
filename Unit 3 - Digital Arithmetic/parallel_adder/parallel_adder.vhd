@@ -2,36 +2,46 @@
 --			LAB5: parallel_adder.vhd
 ----------------------------------------------------------------------
 
-LIBRARY ieee;
-USE ieee.std_logic_1164.ALL;
+--library
+library ieee;
+use ieee.std_logic_1164.ALL;
 
-ENTITY add8gen IS
-	PORT(
-		c0		: IN	STD_LOGIC;
-		a, b	: IN	STD_LOGIC_VECTOR(8 downto 1);
-		c8		: OUT	STD_LOGIC;
-		sum		: OUT	STD_LOGIC_VECTOR(8 downto 1));
-END add8gen;
+entity parallel_adder is
+	port
+		(
+			c0		: 	in		std_logic;
+			a, b	: 	in		std_logic_vector(8 downto 1);
+			c8		:	out	std_logic;
+			sum	:	out	std_logic_vector(8 downto 1)
+		);
+end parallel_adder;
 
-ARCHITECTURE adder OF add8gen IS
-	-- Component declaration
-	COMPONENT full_add
-		PORT(
-			a, b, c_in	: IN	STD_LOGIC;
-			c_out, sum	: OUT	STD_LOGIC);
-	END COMPONENT;
-	-- Define a signal for internal carry bits
-	SIGNAL c : STD_LOGIC_VECTOR (8 downto 0);
-BEGIN
+--architecture
+architecture adder of parallel_adder is
+
+
+	--component---------------FULL-ADDER---------------
+	component full_adder
+		port(
+			a, b, c_in	: in	std_logic;
+			c_out, sum	: out	std_logic);
+	end component;
+	--component---------------FULL-ADDER---------------
+	
+	
+	--signals
+	signal c : std_logic_vector (8 downto 0);
+	
+begin
 	c(0)	<=	c0;
 
 	adders:
-	FOR i IN 1 to 8 GENERATE
-    	adder: full_add PORT MAP (a(i), b(i), c(i-1), c(i), sum(i));
-	END GENERATE;
+	for i in 1 to 8 generate
+    	adder: full_adder port map (a(i), b(i), c(i-1), c(i), sum(i));
+	end generate;
 
 	c8	<=	c(8);
-END adder;
+end adder;
 
 
 ----------------------------------------------------------------------
