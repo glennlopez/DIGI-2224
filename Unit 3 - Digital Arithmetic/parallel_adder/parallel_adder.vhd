@@ -22,6 +22,7 @@ architecture adder of parallel_adder is
 
 
 	--component---------------FULL-ADDER---------------
+	--dependencies: full_adder.vhd
 	component full_adder
 		port(
 			a, b, c_in	: in	std_logic;
