@@ -10,21 +10,21 @@ use ieee.std_logic_1164.all;
 entity full_adder is port 
 	(
 		--inputs
-		x: 	in 	std_logic;
-		y: 	in 	std_logic;
-		cin: 	in 	std_logic; 
+		a: 		IN 	std_logic;			--M22 | P25
+		b: 		IN 	std_logic;			--L21 | N26
+		c_in: 	IN 	std_logic; 			--L22 | N25
 		
 		--outputs
-		sum:	out	std_logic; 
-		cout: out 	std_logic
+		sum:		OUT	std_logic; 			--R20 | AF23
+		c_out: 	OUT 	std_logic			--R19 | AE23
 	);
 end full_adder;
 
 --architecture
 architecture logic_add of full_adder is 
 begin
-	sum 	<= 	x xor y xor cin;
-	cout 	<= 	(x and y) or (x and cin) or (y and cin); 
+	sum 		<= 	a xor b xor c_ in;
+	c_out 	<= 	(a and b) or (a and c_in) or (b and c_in); 
 end logic_add;
 
 
