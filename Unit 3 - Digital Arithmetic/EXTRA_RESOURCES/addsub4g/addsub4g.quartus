@@ -1,0 +1,19 @@
+FILES
+{
+	VHDL_FILE = ..\full_add\full_add.vhd;
+	VHDL_FILE = addsub4g.vhd;
+	VECTOR_WAVEFORM_FILE = addsub4g.vwf;
+}
+COMPILER_SETTINGS_LIST
+{
+	COMPILER_SETTINGS = addsub4g;
+}
+SIMULATOR_SETTINGS_LIST
+{
+	SIMULATOR_SETTINGS = addsub4g;
+}
+SOFTWARE_SETTINGS_LIST
+{
+	SOFTWARE_SETTINGS = Debug;
+	SOFTWARE_SETTINGS = Release;
+}

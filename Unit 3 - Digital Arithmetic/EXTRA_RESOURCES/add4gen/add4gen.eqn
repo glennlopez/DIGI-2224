@@ -1,0 +1,181 @@
+--B4L1 is full_add:adders_4_adder|i~5 at SEXP10
+B4L1 = EXP(!a[4] & !b[4]);
+
+
+--B4L2 is full_add:adders_4_adder|i~6 at SEXP9
+B4L2 = EXP(!a[3] & !b[3]);
+
+
+--B4L3 is full_add:adders_4_adder|i~7 at SEXP7
+B4L3 = EXP(!a[2] & !b[2]);
+
+
+--B4L4 is full_add:adders_4_adder|i~8 at SEXP6
+B4L4 = EXP(!a[1] & !b[1]);
+
+
+--B4L5 is full_add:adders_4_adder|i~15 at LC11
+B4L5_p0_out = B4L1 & B4L2 & B4L3 & a[1] & b[1];
+B4L5_p1_out = a[4] & b[4];
+B4L5_p2_out = B4L1 & a[3] & b[3];
+B4L5_p3_out = B4L1 & B4L2 & a[2] & b[2];
+B4L5_p4_out = B4L1 & B4L2 & B4L4 & B4L3 & c0;
+B4L5_or_out = B4L5_p0_out # B4L5_p1_out # B4L5_p2_out # B4L5_p3_out # B4L5_p4_out;
+B4L5 = B4L5_or_out;
+
+
+--B4L6 is full_add:adders_4_adder|i~20 at SEXP4
+B4L6 = EXP(b[4] & a[4]);
+
+
+--B4L7 is full_add:adders_4_adder|i~21 at LC8
+B4L7_p1_out = B4L1 & B4L6;
+B4L7_p0_out = B4L2 & B4L3 & B4L4 & c0;
+B4L7_p2_out = a[3] & b[3];
+B4L7_p3_out = B4L2 & a[2] & b[2];
+B4L7_p4_out = B4L2 & B4L3 & a[1] & b[1];
+B4L7_or_out = B4L7_p0_out # B4L7_p2_out # B4L7_p3_out # B4L7_p4_out;
+B4L7 = B4L7_p1_out $ B4L7_or_out;
+
+
+--B3L1 is full_add:adders_3_adder|i~94 at SEXP1
+B3L1 = EXP(b[3] & a[3]);
+
+
+--B3L2 is full_add:adders_3_adder|i~95 at LC5
+B3L2_p1_out = B4L2 & B3L1;
+B3L2_p0_out = b[2] & a[2];
+B3L2_p2_out = a[1] & b[1] & b[2];
+B3L2_p3_out = b[1] & b[2] & c0;
+B3L2_p4_out = a[1] & b[2] & c0;
+B3L2_or_out = B3L3 # B3L2_p0_out # B3L2_p2_out # B3L2_p3_out # B3L2_p4_out;
+B3L2 = B3L2_p1_out $ B3L2_or_out;
+
+
+--B2L1 is full_add:adders_2_adder|i~114 at LC3
+B2L1_p0_out = !c0 & !a[2] & b[2] & !a[1];
+B2L1_p1_out = !c0 & !b[1] & !a[2] & b[2];
+B2L1_p2_out = !b[1] & a[2] & !b[2] & !a[1];
+B2L1_p3_out = !b[1] & !a[2] & b[2] & !a[1];
+B2L1_p4_out = !c0 & a[2] & !b[2] & !a[1];
+B2L1_or_out = B2L3 # B2L1_p0_out # B2L1_p1_out # B2L1_p2_out # B2L1_p3_out # B2L1_p4_out;
+B2L1 = B2L1_or_out;
+
+
+--B1L1 is full_add:adders_1_adder|i~61 at LC6
+B1L1_p2_out = a[1] & !b[1];
+B1L1_p3_out = !a[1] & b[1];
+B1L1_or_out = B1L1_p2_out # B1L1_p3_out;
+B1L1 = c0 $ B1L1_or_out;
+
+
+--B3L3 is full_add:adders_3_adder|i~102 at LC4
+B3L3_p1_out = c0 & a[1] & a[2];
+B3L3_p2_out = c0 & a[2] & b[1];
+B3L3_p3_out = a[1] & a[2] & b[1];
+B3L3 = B3L3_p1_out # B3L3_p2_out # B3L3_p3_out;
+
+
+--B2L2 is full_add:adders_2_adder|i~115 at LC1
+B2L2_p1_out = c0 & a[1] & !a[2] & !b[2];
+B2L2_p2_out = c0 & !a[2] & !b[2] & b[1];
+B2L2 = B2L2_p1_out # B2L2_p2_out;
+
+
+--B2L3 is full_add:adders_2_adder|i~118 at LC2
+B2L3_p0_out = !c0 & a[2] & !b[2] & !b[1];
+B2L3_p1_out = c0 & a[1] & a[2] & b[2];
+B2L3_p2_out = c0 & a[2] & b[2] & b[1];
+B2L3_p3_out = a[1] & !a[2] & !b[2] & b[1];
+B2L3_p4_out = a[1] & a[2] & b[2] & b[1];
+B2L3 = B2L2 # B2L3_p0_out # B2L3_p1_out # B2L3_p2_out # B2L3_p3_out # B2L3_p4_out;
+
+
+--c0 is c0 at Pin_34
+--operation mode is input
+
+c0 = INPUT();
+
+
+--a[1] is a[1] at Pin_5
+--operation mode is input
+
+a[1] = INPUT();
+
+
+--b[1] is b[1] at Pin_80
+--operation mode is input
+
+b[1] = INPUT();
+
+
+--a[2] is a[2] at Pin_61
+--operation mode is input
+
+a[2] = INPUT();
+
+
+--b[2] is b[2] at Pin_24
+--operation mode is input
+
+b[2] = INPUT();
+
+
+--a[3] is a[3] at Pin_4
+--operation mode is input
+
+a[3] = INPUT();
+
+
+--b[3] is b[3] at Pin_33
+--operation mode is input
+
+b[3] = INPUT();
+
+
+--a[4] is a[4] at Pin_81
+--operation mode is input
+
+a[4] = INPUT();
+
+
+--b[4] is b[4] at Pin_52
+--operation mode is input
+
+b[4] = INPUT();
+
+
+--c4 is c4 at Pin_8
+--operation mode is output
+
+c4 = OUTPUT(B4L5);
+
+
+--sum[4] is sum[4] at Pin_9
+--operation mode is output
+
+sum[4] = OUTPUT(B4L7);
+
+
+--sum[3] is sum[3] at Pin_11
+--operation mode is output
+
+sum[3] = OUTPUT(B3L2);
+
+
+--sum[2] is sum[2] at Pin_12
+--operation mode is output
+
+sum[2] = OUTPUT(B2L1);
+
+
+--sum[1] is sum[1] at Pin_10
+--operation mode is output
+
+sum[1] = OUTPUT(B1L1);
+
+
+
+
+
+

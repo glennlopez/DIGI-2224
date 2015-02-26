@@ -1,0 +1,128 @@
+ -- Copyright (C) 1991-2003 Altera Corporation
+ -- Any  megafunction  design,  and related netlist (encrypted  or  decrypted),
+ -- support information,  device programming or simulation file,  and any other
+ -- associated  documentation or information  provided by  Altera  or a partner
+ -- under  Altera's   Megafunction   Partnership   Program  may  be  used  only
+ -- to program  PLD  devices (but not masked  PLD  devices) from  Altera.   Any
+ -- other  use  of such  megafunction  design,  netlist,  support  information,
+ -- device programming or simulation file,  or any other  related documentation
+ -- or information  is prohibited  for  any  other purpose,  including, but not
+ -- limited to  modification,  reverse engineering,  de-compiling, or use  with
+ -- any other  silicon devices,  unless such use is  explicitly  licensed under
+ -- a separate agreement with  Altera  or a megafunction partner.  Title to the
+ -- intellectual property,  including patents,  copyrights,  trademarks,  trade
+ -- secrets,  or maskworks,  embodied in any such megafunction design, netlist,
+ -- support  information,  device programming or simulation file,  or any other
+ -- related documentation or information provided by  Altera  or a megafunction
+ -- partner, remains with Altera, the megafunction partner, or their respective
+ -- licensors. No other licenses, including any licenses needed under any third
+ -- party's intellectual property, are provided herein.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (5.0V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC  (Refer to
+ --                 the table below for voltage).
+ -- GND           : Dedicated ground pin, which MUST be connected to GND.
+ -- GND+          : Unused input. This pin should be connected to GND. It may also
+ --           	    be connected  to a  valid signal  on the board  (low, high, or
+ --           	    toggling)  if that signal is required for a different revision
+ --           	    of the design.
+ -- GND*          : Unused  I/O  pin.   This pin can either be left unconnected or
+ --           	    connected to GND.  Connecting this pin to GND will improve the
+ --           	    device's immunity to noise.
+ -- NON_MIGRATABLE: This pin cannot be migrated.
+ ---------------------------------------------------------------------------------
+
+Quartus II Version 3.0 Build 245 10/09/2003 Service Pack 2 SJ Full Version
+CHIP  "add8gen"  ASSIGNED TO AN: EPM7128SLC84-7
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+GND+                         : 1         :        :                   :         :           :                
+GND+                         : 2         :        :                   :         :           :                
+VCCINT                       : 3         : power  :                   : 5.0V    :           :                
+sum[4]                       : 4         : output : TTL               :         :           : N              
+sum[3]                       : 5         : output : TTL               :         :           : N              
+sum[2]                       : 6         : output : TTL               :         :           : N              
+GND                          : 7         : gnd    :                   :         :           :                
+sum[5]                       : 8         : output : TTL               :         :           : N              
+sum[6]                       : 9         : output : TTL               :         :           : N              
+sum[7]                       : 10        : output : TTL               :         :           : N              
+sum[8]                       : 11        : output : TTL               :         :           : N              
+c8                           : 12        : output : TTL               :         :           : N              
+VCCIO                        : 13        : power  :                   : 5.0V    :           :                
+TDI                          : 14        : input  : TTL               :         :           : N              
+GND*                         : 15        :        :                   :         :           :                
+a[5]                         : 16        : input  : TTL               :         :           : N              
+GND*                         : 17        :        :                   :         :           :                
+GND*                         : 18        :        :                   :         :           :                
+GND                          : 19        : gnd    :                   :         :           :                
+GND*                         : 20        :        :                   :         :           :                
+GND*                         : 21        :        :                   :         :           :                
+sum[1]                       : 22        : output : TTL               :         :           : N              
+TMS                          : 23        : input  : TTL               :         :           : N              
+b[3]                         : 24        : input  : TTL               :         :           : N              
+a[2]                         : 25        : input  : TTL               :         :           : N              
+VCCIO                        : 26        : power  :                   : 5.0V    :           :                
+a[7]                         : 27        : input  : TTL               :         :           : N              
+GND*                         : 28        :        :                   :         :           :                
+GND*                         : 29        :        :                   :         :           :                
+GND*                         : 30        :        :                   :         :           :                
+GND*                         : 31        :        :                   :         :           :                
+GND                          : 32        : gnd    :                   :         :           :                
+a[1]                         : 33        : input  : TTL               :         :           : N              
+b[6]                         : 34        : input  : TTL               :         :           : N              
+GND*                         : 35        :        :                   :         :           :                
+GND*                         : 36        :        :                   :         :           :                
+GND*                         : 37        :        :                   :         :           :                
+VCCIO                        : 38        : power  :                   : 5.0V    :           :                
+GND*                         : 39        :        :                   :         :           :                
+GND*                         : 40        :        :                   :         :           :                
+GND*                         : 41        :        :                   :         :           :                
+GND                          : 42        : gnd    :                   :         :           :                
+VCCINT                       : 43        : power  :                   : 5.0V    :           :                
+GND*                         : 44        :        :                   :         :           :                
+GND*                         : 45        :        :                   :         :           :                
+GND*                         : 46        :        :                   :         :           :                
+GND                          : 47        : gnd    :                   :         :           :                
+GND*                         : 48        :        :                   :         :           :                
+a[8]                         : 49        : input  : TTL               :         :           : N              
+a[6]                         : 50        : input  : TTL               :         :           : N              
+b[7]                         : 51        : input  : TTL               :         :           : N              
+c0                           : 52        : input  : TTL               :         :           : N              
+VCCIO                        : 53        : power  :                   : 5.0V    :           :                
+GND*                         : 54        :        :                   :         :           :                
+GND*                         : 55        :        :                   :         :           :                
+GND*                         : 56        :        :                   :         :           :                
+GND*                         : 57        :        :                   :         :           :                
+GND*                         : 58        :        :                   :         :           :                
+GND                          : 59        : gnd    :                   :         :           :                
+b[8]                         : 60        : input  : TTL               :         :           : N              
+b[4]                         : 61        : input  : TTL               :         :           : N              
+TCK                          : 62        : input  : TTL               :         :           : N              
+GND*                         : 63        :        :                   :         :           :                
+GND*                         : 64        :        :                   :         :           :                
+GND*                         : 65        :        :                   :         :           :                
+VCCIO                        : 66        : power  :                   : 5.0V    :           :                
+GND*                         : 67        :        :                   :         :           :                
+GND*                         : 68        :        :                   :         :           :                
+a[4]                         : 69        : input  : TTL               :         :           : N              
+b[5]                         : 70        : input  : TTL               :         :           : N              
+TDO                          : 71        : output : TTL               :         :           : N              
+GND                          : 72        : gnd    :                   :         :           :                
+GND*                         : 73        :        :                   :         :           :                
+GND*                         : 74        :        :                   :         :           :                
+GND*                         : 75        :        :                   :         :           :                
+GND*                         : 76        :        :                   :         :           :                
+GND*                         : 77        :        :                   :         :           :                
+VCCIO                        : 78        : power  :                   : 5.0V    :           :                
+a[3]                         : 79        : input  : TTL               :         :           : N              
+b[2]                         : 80        : input  : TTL               :         :           : N              
+b[1]                         : 81        : input  : TTL               :         :           : N              
+GND                          : 82        : gnd    :                   :         :           :                
+GND+                         : 83        :        :                   :         :           :                
+GND+                         : 84        :        :                   :         :           :                
