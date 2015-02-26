@@ -3,11 +3,11 @@
 DIGI-2224
 ---------
 
-This is a version control repo for the <u>DIGI-2224 course offered at Red River College</u>. It is intended to document my progress with VHDL programming and help students strugling to meet deadlines. You may download, review, or comment on the code for reference.
+This is a version control repo for the <u>DIGI-2224 course offered at Red River College</u>. It is intended to document my progress with VHDL programming and help students meet deadlines. You may download, review, or comment on the code for reference.
 
-If you are looking for my own projects concerning VHDL, you can check out my <a href="https://github.com/glennlopez/AlteraMax.Playground">AlteraMax.Playground</a> sandbox. I highly recomend you buy PyroElectro's Intro to FPGA kit. No point in learning all this if you're not gonna use it outside of the classroom.
+If you are looking for my own projects concerning VHDL, you can check out my <a href="https://github.com/glennlopez/AlteraMax.Playground">AlteraMax.Playground</a> sandbox. I highly recommend you buy PyroElectro's Intro to FPGA kit. No point in learning all this if you're not gonna use it outside of the classroom.
 
-> <b>Students:</b> you should at least try and attempt the labs before or after resorting to the finished lab in this repo. The intent of this repo is to reward you for being resourceful by giving you a buffer (completed labs) for deadlines, not cheat. If you end up having to rely on this repo to meet deadlines (hand my labs in as your-own aka: plagiarize) be sure make time for the labs you missed and do them yourselfs!
+> <b>Students:</b> you should at least try and attempt the labs before or after resorting to the finished lab in this repo. The intent of this repo is to giving you a buffer for deadlines, not cheat. If you end up having to rely on this repo be sure make time for the labs you missed and do them yourselfs!
 
 VHDL Supplemental Resources:
 ----------------------------
