@@ -2,6 +2,7 @@
 --			LAB5: full_adder.vhd
 --			More info on Adders:
 --					https://www.youtube.com/watch?v=mZ9VWA4cTbE
+--					also check the suplimental folder in the curent dir.
 ----------------------------------------------------------------------
 
 --library
