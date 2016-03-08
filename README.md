@@ -1,7 +1,7 @@
 <!-- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet -->
 **//discontinued... (03.2016)**
 
-Since I'm no longer a student at RRC, this repo (PROG-2000) will no longer be maintained. I've made all my labs (up to year 3) public domain and is now available for download to students who wish to use it as referance. An .nzb file is also available for Usenet subscribers.
+Since I'm no longer a student at RRC, this repo (DIGI-2224) will no longer be maintained. I've made all my labs (up to year 3) public domain and is now available for download to students who wish to use it as referance. An .nzb file is also available for Usenet subscribers.
 
 On that note, please have some self-control and avoid using my labs to cheat. You paid money to learn, not to get a diploma. If you're having trouble with this course seek help (peer tutoring).
 
